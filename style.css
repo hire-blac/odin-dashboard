@@ -1,6 +1,9 @@
 div {
   border: solid 1px blue;
 }
+ul {
+  list-style-type: none;
+}
 .container {
   display: grid;
   grid-template-columns: 1fr 5fr;
@@ -11,6 +14,8 @@ div {
 }
 .menu {
   grid-row: 1 / 3;
+  display: grid;
+  grid-template-rows: 60px 150px 150px;
 }
 .content {
   display: grid;
@@ -24,4 +29,10 @@ div {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-auto-rows: 200px;
   gap: 15px;
+}
+.right div {
+  height: 300px;
+}
+.announcements {
+  margin-bottom: 50px;
 }
