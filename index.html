@@ -7,6 +7,9 @@
   <title>Dashboard</title>
 
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -14,16 +17,20 @@
     <div class="header">
       <div class="search-box">
         <div class="search">
-          <img src="icons/magnify.svg" alt="">
+          <img class="search-icon" src="icons/dark/magnify.png" alt="">
           <input type="text">
         </div>
         <div class="notification">
-          <img src="icons/bell-ring-outline.svg" alt="">
-          avater Daniel Hirekaan
+          <img class="notification-icon" src="icons/dark/bell-ring-outline.png" alt="">
+          <img class="avater" src="icons/gamer.png" alt=""> 
+          <h4>Daniel Hirekaan</h4>
         </div>
       </div>
       <div class="head">
-        <h2>Daniel Hirekaan (@danihire)</h2>
+        <div>
+          <img class="avater" src="icons/gamer.png" alt=""> 
+          <h2>Daniel Hirekaan (@danihire)</h2>
+        </div>
         <ul>
           <li>New</li>
           <li>Upload</li>
@@ -34,55 +41,55 @@
 
     <div class="sidebar menu">
       <h3>
-        <img class="menu-icon" src="icons/view-dashboard-outline.svg" alt="">
+        <img class="menu-icon" src="icons/light/view-dashboard.png" alt="">
         Dashboard
       </h3>
       <ul>
         <li>
-          <img class="menu-icon" src="icons/home.svg" alt="">
+          <img class="menu-icon" src="icons/light/home.png" alt="">
           Home
         </li>
         <li>
-          <img class="menu-icon" src="icons/card-account-details-outline.svg" alt="" srcset="">
+          <img class="menu-icon" src="icons/light/card-account-details-outline.png" alt="" srcset="">
           Profile
         </li>
         <li>
-          <img class="menu-icon" src="icons/message-reply-outline.svg" alt="" srcset="">
+          <img class="menu-icon" src="icons/light/message-reply.png" alt="" srcset="">
           Message
         </li>
         <li>
-          <img class="menu-icon" src="icons/chevron-down-circle-outline.svg" alt="">
+          <img class="menu-icon" src="icons/light/history.png" alt="">
           History
         </li>
         <li>
-          <img class="menu-icon" src="icons/clipboard-check-multiple.svg" alt="">
+          <img class="menu-icon" src="icons/light/calendar-check.png" alt="">
           Tasks
         </li>
         <li>
-          <img class="menu-icon" src="icons/account-group-outline.svg" alt="">
+          <img class="menu-icon" src="icons/light/account-group.png" alt="">
           Community
         </li>
       </ul>
 
       <ul>
         <li>
-          <img class="menu-icon" src="icons/cog-outline.svg" alt="">
+          <img class="menu-icon" src="icons/light/cogs.png" alt="">
           Settings
         </li>
         <li>
-          <img class="menu-icon" src="icons/help-rhombus-outline.svg" alt="">
+          <img class="menu-icon" src="icons/light/help-rhombus.png" alt="">
           Support
         </li>
         <li>
-          <img class="menu-icon" src="icons/shield-check-outline.svg" alt="">
+          <img class="menu-icon" src="icons/light/shield-lock.png" alt="">
           Privacy
         </li>
       </ul>
     </div>
 
     <div class="content">
+      <h3>Main Content</h3>
       <div class="project-list">
-        <!-- <h1>Main Content</h1> -->
         <div class="project">
           <h3>Super Cool Project</h3>
           <div class="desc">
@@ -92,8 +99,8 @@
             </p>
           </div>
           <div class="icons">
-            <img src="icons/thumb-up-outline.svg" alt="">
-            <img src="icons/share-all-outline.svg" alt="" srcset="">
+            <img src="icons/dark/star-plus-outline.png" alt="">
+            <img src="icons/dark/share-all-outline.png" alt="" srcset="">
           </div>
         </div>
 
@@ -106,8 +113,8 @@
             </p>
           </div>
           <div class="icons">
-            <img src="icons/thumb-up-outline.svg" alt="">
-            <img src="icons/share-all-outline.svg" alt="" srcset="">
+            <img src="icons/dark/star-plus-outline.png" alt="">
+            <img src="icons/dark/share-all-outline.png" alt="" srcset="">
           </div>
         </div>
         
@@ -120,8 +127,8 @@
             </p>
           </div>
           <div class="icons">
-            <img src="icons/thumb-up-outline.svg" alt="">
-            <img src="icons/share-all-outline.svg" alt="" srcset="">
+            <img src="icons/dark/star-plus-outline.png" alt="">
+            <img src="icons/dark/share-all-outline.png" alt="" srcset="">
           </div>
         </div>
         
@@ -135,8 +142,8 @@
           </div>
           <div class="icons">
             
-            <img src="icons/thumb-up-outline.svg" alt="">
-            <img src="icons/share-all-outline.svg" alt="" srcset="">
+            <img src="icons/dark/star-plus-outline.png" alt="">
+            <img src="icons/dark/share-all-outline.png" alt="" srcset="">
           </div>
         </div>
         
@@ -150,8 +157,8 @@
           </div>
           <div class="icons">
             
-            <img src="icons/thumb-up-outline.svg" alt="">
-            <img src="icons/share-all-outline.svg" alt="" srcset="">
+            <img src="icons/dark/star-plus-outline.png" alt="">
+            <img src="icons/dark/share-all-outline.png" alt="" srcset="">
           </div>
         </div>
         
@@ -165,22 +172,30 @@
           </div>
           <div class="icons">
             
-            <img src="icons/thumb-up-outline.svg" alt="">
-            <img src="icons/share-all-outline.svg" alt="" srcset="">
+            <img src="icons/dark/star-plus-outline.png" alt="">
+            <img src="icons/dark/share-all-outline.png" alt="" srcset="">
           </div>
         </div>
         
       </div>
 
-      <div class="sidebar right">
-        <!-- <h1>Right Sidebar</h1> -->
-        <div class="announcements">
-          <h3>Announcements</h3>
-        </div>
-        <div class="trending">
-          <h3>Trending</h3>
-        </div>
+    </div>
+
+    <div class="sidebar right">
+      <h3>Announcements</h3>
+      <div class="announcements">
       </div>
+      
+      <h3>Trending</h3>
+      <div class="trending">
+      </div>
+    </div>
+
+    <div class="footer">
+      <small>
+        <a href="https://www.flaticon.com/free-icons/hacker" title="hacker icons">Hacker icons created by juicy_fish - Flaticon</a>
+      </small>
+      
     </div>
   </div>
 </body>
